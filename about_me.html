@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-stone-900 text-white font-semibold flex flex-col h-screen" style="font-family: 'Varela',">
+
+    <header class="sticky bg-stone-900 pb-4 top-2 right-4">
+      <div class="flex justify-end items-center">
+          <button><a href="index.html" class="block border border-stone-900 hover:border-green-400 text-white hover:text-green-400 font-semibold p-2 rounded mr-2">
+            Home
+          </a></button>
+          <button></button><a href="about_me.html" class="block bg-green-500 hover:bg-green-600 border border-stone-900 text-white font-semibold p-2 rounded mr-2">
+            About me
+          </a></button>
+          <button></button><a href="my_projects.html" class="block border border-stone-900 hover:border-green-400 text-white hover:text-green-400 font-semibold p-2 rounded mr-2">
+            My projects
+          </a></button>
+      </div>
+    </header>
+
+    <main class="flex-1 overflow-y-auto">
+
+    <div class="px-12 pb-12 pt-2 sm:w-full md:w-4/6">
+      <h1 class="text-6xl py-10 font-semibold italic text-slate-900">
+        <span class="before:absolute before:-inset-3 before:-skew-y-2 before:bg-green-500 relative inline-block">
+          <span class="relative text-white">Who am I?</span>
+        </span>
+      </h1>
+      <h2 class="text-2xl pb-4 pl-4 font-semibold underline">Personal life</h2>
+      <p class="text-xl pb-4 pl-4">My name is Nitius, but you can also find me under other aliases (Rhodas, Dai Durren).</p>
+      <p class="text-xl pb-4 pl-4">I enjoy gaming, sports, reading history memes on reddit, and coding random stuff (that doesn't work).</p>
+      <p class="text-xl pb-4 pl-4">I like try out new things, like bouldering (sadly I <a href="static/images/broken_ankel.jpg" target="_blank" class="text-green-500">broke my ankles</a> ) 
+        or creating not very aesthetic websites.</p>
+      <p class="text-xl pb-4 pl-4">I'm a curios person. I love expanding my brain with useful (or useless) knowledge.</p>
+      <p class="text-xl pb-4 pl-4">Most of the time, my curiosity leads to some challenging stuff ... and I love it, solving some difficult problems gives me a huge dopamine rush.</p>
+      <p class="text-xl pb-4 pl-4">As a result, I'm the <a href="static/images/hackerman.jpg" target="_blank" class="text-green-500">"Hackerman"</a> 
+        in my friend circle. When someone has a technical problem, I'm the first one they call.</p>
+      <h2 class="text-2xl pb-4 pl-4 font-semibold underline">Work life</h2>
+      <p class="text-xl pb-4 pl-4">In terms of work I've been a software tester for 6 years and a test automation enginer for 2 years.
+      <p class="text-xl pb-4 pl-4">My manual testing expertise includes:
+      <br>Content management System (CMS) testing, website function / design / accesibilty (a11y) testing.</p>
+      <p class="text-xl pb-4 pl-4">For automation testing, I started with katalon, but due to it's limits I later embraced python and it's various frameworks:
+        <ul class="text-xl pb-4 pl-12 list-disc">
+          <li>Pytest</li>
+          <li>Robot framework</li>
+          <li>Selenium</li>
+          <li>Behave (but not a huge fan of it)</li>
+        </ul></p>
+      <p class="text-xl pb-4 pl-4">I learned all of this by the autodidactic way, so yeah, lots of youtube tutorials, old / dead stackoverflow topics and a huge amount of chatgpt experimenting.</p>
+      <p class="text-xl pb-4 pl-4">But hey, <a href="static/images/as_long_as_it_works.jpg" target="_blank" class="text-green-500">"as long as it works"</a>.</p>
+    <div class="col-span-4">
+      <!-- Empty column (no content here) -->
+    </div>
+    </div>
+
+    </main>
+
+    <footer class="sticky bg-stone-900 bottom-0 left-2 mt-auto text-white p-4 ml-4">
+      <div class="justify-start">
+          <p class="text-sm pl-4">&copy; Nitius. All rights reserved.</p>
+      </div>
+    </footer>
+
+</html>

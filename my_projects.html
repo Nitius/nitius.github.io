@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-stone-900 text-white font-semibold flex flex-col h-screen" style="font-family: 'Varela',">
+
+    <header class="sticky bg-stone-900 pb-4 top-2 right-4">
+      <div class="flex justify-end items-center">
+          <button><a href="index.html" class="block border border-stone-900 hover:border-green-400 text-white hover:text-green-400 font-semibold p-2 rounded mr-2">
+            Home
+          </a></button>
+          <button><a href="about_me.html" class="block border border-stone-900 hover:border-green-400 text-white hover:text-green-400 font-semibold p-2 rounded mr-2">
+            About me
+          </a></button>
+          <button><a href="my_projects.html" class="block bg-green-500 hover:bg-green-600 border border-stone-900 text-white font-semibold p-2 rounded mr-2">
+            My projects
+          </a></button>
+      </div>
+    </header>
+
+    <div class="px-12 pb-12 pt-2 sm:w-full md:w-4/6">
+      <h1 class="text-6xl py-10 font-semibold italic text-slate-900">
+        <span class="before:absolute before:-inset-3 before:-skew-y-2 before:bg-green-500 relative inline-block">
+          <span class="relative text-white">My projects:</span>
+        </span>
+      </h1>
+      <a href="https://github.com/Nitius/demoqa_robot" class="block border py-4 group hover:border-green-400">
+        <div class="pl-4 group-hover:text-green-500">
+          <h2 class="text-2xl pb-4 font-semibold underline">Python - Robotframework - Demoqa tour</h2>
+        </div>
+          <p class="text-xl pl-4">This is a showcase of my automation knowledge using Python, Robot Framework and Selenium library on the Demoqa website.</p>
+          <p class="text-xl pl-4">I also made a Dockerfile so it can run in Docker.</p>
+      </a>
+      <div class="col-span-4">
+        <!-- Empty column (no content here) -->
+      </div>
+    </div>
+
+    <footer class="sticky bg-stone-900 bottom-0 left-2 mt-auto text-white p-4 ml-4">
+      <div class="justify-start">
+          <p class="text-sm pl-4">&copy; Nitius. All rights reserved.</p>
+      </div>
+    </footer>
+
+</html>
